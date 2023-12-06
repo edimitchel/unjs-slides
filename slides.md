@@ -7,7 +7,7 @@ css: unocss
 
 # UnJS: JavaScript unifié
 
-<img v-click src="images/unjs-logo-black.svg" w-80>
+<img v-click src="/images/unjs-logo-black.svg" w-80>
 
 ---
 
@@ -33,15 +33,15 @@ layout: fact
 # Focus sur<br> quelques modules
 
 <div absolute bottom-0 flex flex-wrap gap-8 mt-30 text-10>
-  <span><img src="images/unplugin.svg" inline> unplugin</span>
-  <span><img src="images/consola.svg" inline> consola / <img src="images/citty.svg" inline> citty</span>
-  <span><img src="images/h3.svg" inline> h3 / <img src="images/nitro.svg" inline> nitro</span>
-  <span><img src="images/nypm.svg" inline> nypm</span>
-  <span><img src="images/unpdf.svg" inline> unpdf / <img src="images/ipx.svg" inline> ipx</span>
+  <span><img src="/images/unplugin.svg" inline> unplugin</span>
+  <span><img src="/images/consola.svg" inline> consola / <img src="/images/citty.svg" inline> citty</span>
+  <span><img src="/images/h3.svg" inline> h3 / <img src="/images/nitro.svg" inline> nitro</span>
+  <span><img src="/images/nypm.svg" inline> nypm</span>
+  <span><img src="/images/unpdf.svg" inline> unpdf / <img src="/images/ipx.svg" inline> ipx</span>
 </div>
 ---
 
-## <img src="images/unplugin.svg" inline> unplugin
+## <img src="/images/unplugin.svg" inline> unplugin
 
 Pour les créateurs de plugin pour les outils, c'est la solution pour les rendre accessibles à la fois sous Webpack, Vite, Rollup, Rspack, etc..
 
@@ -72,31 +72,31 @@ export const esbuildPlugin = unplugin.esbuild
 </v-click>
 ---
 
-## <img src="images/consola.svg" inline> consola / <img src="images/citty.svg" inline> citty
+## <img src="/images/consola.svg" inline> consola / <img src="/images/citty.svg" inline> citty
 
 Pour des CLI aux petits oignons.
 
-<img src="images/consola-illustration.png">
+<img src="/images/consola-illustration.png">
 
 ---
 
-## <img src="images/h3.svg" inline> h3 / <img src="images/nitro.svg" inline> nitro
+## <img src="/images/h3.svg" inline> h3 / <img src="/images/nitro.svg" inline> nitro
 
 Créer un serveur backend avec des performances et un typage amélioré.
 
-h3 <img src="images/h3.svg" inline w-6> propose une alternative à Express avec des performances accrues et des compétences en plus tout en assurant la compatibilité avec Express.
+h3 <img src="/images/h3.svg" inline w-6> propose une alternative à Express avec des performances accrues et des compétences en plus tout en assurant la compatibilité avec Express.
 
-Nitro <img src="images/nitro.svg" inline w-6> est un réel framework combinant plusieurs briques UnJS dont h3, une gestion de stockage et de cache, un routage basé sur la structure des dossiers et surtout, un déploiment possible sur toutes les plateformes et environnement.
+Nitro <img src="/images/nitro.svg" inline w-6> est un réel framework combinant plusieurs briques UnJS dont h3, une gestion de stockage et de cache, un routage basé sur la structure des dossiers et surtout, un déploiment possible sur toutes les plateformes et environnement.
 
-<img src="images/nitro-illustration.png">
+<img src="/images/nitro-illustration.png">
 
 ---
 
-## <img src="images/nypm.svg" inline> nypm
+## <img src="/images/nypm.svg" inline> nypm
 
 Pour ne plus vous embêter à choisir entre npm, pnpm, yarn, bun.. il vous choisit le bon selon la présence des fichiers de lock.
 
-<img src="images/nypm-illustration.png" w-60>
+<img src="/images/nypm-illustration.png" w-60>
 
 De plus, permet de vérifier la présence et d'installer des dépendances à la volée.
 
@@ -112,13 +112,13 @@ import {
 ```
 ---
 
-## <img src="images/unpdf.svg" inline> unpdf / <img src="images/ipx.svg" inline> ipx
+## <img src="/images/unpdf.svg" inline> unpdf / <img src="/images/ipx.svg" inline> ipx
 
 PDF et images à porter demain pour les manipuler avec simplicité.
 
-unpdf <img src="images/unpdf.svg" inline w-6> propose les fonctionnalités de PDF.js avec quelques foncitons en plus dont l'extraction de texte.
+unpdf <img src="/images/unpdf.svg" inline w-6> propose les fonctionnalités de PDF.js avec quelques foncitons en plus dont l'extraction de texte.
 
-ipx <img src="images/ipx.svg" inline w-6> optimise vos images et permet d'utiliser des services d'images plus efficacement.
+ipx <img src="/images/ipx.svg" inline w-6> optimise vos images et permet d'utiliser des services d'images plus efficacement.
 
 ```ts {all|10-13}
 import { listen } from "listhen";
