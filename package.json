@@ -3,16 +3,25 @@
   "scripts": {
     "dev": "slidev",
     "build": "slidev build",
-    "export": "slidev export"
+    "export": "slidev export",
+    "server": "listhen server.ts -w"
   },
   "dependencies": {
     "@slidev/cli": "latest",
     "@slidev/theme-apple-basic": "^0.20.0",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
-    "slidev-theme-eloc": "^1.0.2"
+    "@vueuse/core": "^10.7.0",
+    "fs-memo": "^1.2.0",
+    "h3": "^1.9.0",
+    "listhen": "^1.5.5",
+    "node": "^21.2.0",
+    "slidev-theme-eloc": "^1.0.2",
+    "untun": "^0.1.2",
+    "uqr": "^0.1.2"
   },
   "devDependencies": {
-    "@iconify-json/logos": "^1.1.40"
+    "@iconify-json/logos": "^1.1.40",
+    "sass": "^1.69.5"
   }
 }

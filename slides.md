@@ -156,6 +156,13 @@ listen(toNodeListener(app));
 - et tant d'autres..
 
 ---
+
+## Petite démo:
+
+<Qrcode />
+
+
+---
 layout: iframe
 url: https://unjs-relations.barbapapazes.dev/
 ---
